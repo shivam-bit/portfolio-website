@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    font-family: 'Slabo 27px', serif;
+    line-height: 1.5rem;
+    
+}
+body{
+    background-color: #0E151A;
+    color:white;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.links a{
+    text-decoration: none;
+    color: #7AFF89;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    width: 10rem;
+}
+
+/* Navbar Starts here */
+nav{
+    display: block;
+    background-color:#161F27;
+    color: white;
+    float: right;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    float: right;
+    padding: 1rem 3rem;
+    height: 1.5rem ;
+    width: auto;
+    margin: auto 0px;
+    vertical-align:middle;
+    
+}
+.menu-item{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align:middle;
+    display: inline-block;
+    margin-left:3vw ;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#logo{
+    height: 2rem;
+    width: 20rem;
+    padding: 0.8rem 1rem;
+    float:left;
+}
+/* Navbar ends here */
+
+/* Intro Section Starts here */
+
+.intro{
+    display: table;
+    /* border: 2px solid red; */
+    float: right;
+    padding:1rem 15vw;
+}
+.shivam-bitmoji-hi{
+    margin: 0rem;
+    float: left;
+    /* border: 2px solid red; */
+}
+.intro-content{
+    display: table-cell;
+    vertical-align:middle;
+    position:relative;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+#hi-text{
+    color: #5871F6;
+    font-weight: 800;
+    font-size: 3rem;
+    margin:2rem 0rem;
+}
+#bio-text{
+    color:#ED3F6A;
+    font-weight: 600;
+    font-size: 2rem;
+    margin:1rem 0rem;
+    opacity: 0.9;
+}
+
+/* Intro Section ends here */
+
+/* projects section starts here */
+
+.projects{
+    display: table;
+    width: 100%;
+}
+
+.project-item{
+    display: inline-block;
+    background-color:hsl(204, 30%, 18%,0.3);
+    border-radius: 2rem;
+    width:35rem;
+    min-height: 12rem;
+    text-align: center;
+    margin: 2rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.project-item-title{
+    color: #5871F6;
+    font-weight: 700;
+    font-size: 2rem;
+    margin:1rem 0rem;
+}
+.project-item-stack{
+    color: #ED3F6A;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin:1rem 0rem;
+}
+.separator{
+    color: whitesmoke;
+}
+.links{
+    margin:1rem auto;
+}
+
+/* projects section end here */
+
+/* contact section starts here */
+
+.logo-menu-item{
+    display: inline-block;
+    margin: 3rem 5rem;
+}
+.contact-menu-item-image{
+    height: 6rem;
+}
+
+/* conatct section ends here */
+
+/* footer section starts here */
+
+footer{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+footer hr{
+    width: 80vw;
+    margin:1rem auto;
+}
+
+/* footer section ends here */
+
+.section-title-item{
+    margin-top: 3rem;
+}
+
+
